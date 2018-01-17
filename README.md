@@ -1,17 +1,24 @@
+# Introduction
+This is a simple rails App to fulfil a tech demo. The app contains a command line program written in ruby which uses the github API to guess what a users favourite language is.
+
+This task was completed in just under an hour.
+
 # Instructions
 To view the simple command line app that estimates a github user's favourite programming language; navigate to 
- * bin/favourite_language.rb
-
-
-You can run this by cloning this repo and running:
-
 `bin/favourite_language.rb`
+
+
+You can run the command line program by cloning this repo and running the following command:
+
+```bash
+bin/favourite_language.rb
+```
 
 The CSS/HTML demo is available by running the rails server and nagivating to '/'
 
 # Favourite Language Source
 
-```ruby
+``` ruby
 #!/usr/bin/env ruby
 # 
 # (c) Callan Carr 2018
@@ -55,7 +62,7 @@ puts "#{sorted_data.last[0]} is #{username}'s favourite language!"
 # HTML/CSS test source
 
 ## HTML
-```html
+``` html
 <div class="link-container">
   <div class="link-unit completed">
     age + postcode
@@ -79,7 +86,7 @@ puts "#{sorted_data.last[0]} is #{username}'s favourite language!"
 ```
 
 ## CSS
-```
+``` css
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
